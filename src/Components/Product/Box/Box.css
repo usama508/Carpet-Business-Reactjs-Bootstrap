@@ -1,0 +1,159 @@
+
+.box-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.box p{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color:  #1A1A1ACC;
+padding-top: 10px;
+}
+
+.box-head{
+    padding-top: 40px;
+}
+
+.box-head h1{
+    font-family: Fraunces;
+font-size: 64px;
+font-weight: 700;
+line-height: 79px;
+letter-spacing: 0em;
+text-align: center;
+
+color:  rgba(26, 26, 26, 0.7)
+;
+
+}
+
+.box-head span{
+    color:#D3AF5E;
+    
+}
+.box-car{
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .box img{
+        width: 95%;
+    }
+    
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .box-head h1{
+        font-family: Fraunces;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+        
+        
+    color:  rgba(26, 26, 26, 0.7)
+    ;
+    
+    }
+    
+    .box-head span{
+        color:#D3AF5E;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .box img{
+        width: 95%;
+    }
+    
+.box p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+color:  #1A1A1ACC;
+padding-top: 10px;
+}
+   
+}
+
+@media screen and (max-width:540px) {
+    .box-head h1{
+        font-family: Fraunces;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+       
+        
+        
+        
+        
+    color:  rgba(26, 26, 26, 0.7)
+    ;
+    
+    }
+    
+    .box-head span{
+        color:#D3AF5E;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .box-main{
+        display: none;
+    }
+    
+
+    .box-car{
+        display: block;
+        padding-top: 30px;
+    }
+    .swipers{
+       
+        background-color:  #ECECEC;
+        ;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .sliderss{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sliderss p{
+        padding-top: 10px;
+        font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color:  #1A1A1ACC;
+;
+    }
+    
+}

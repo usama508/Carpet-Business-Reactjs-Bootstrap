@@ -1,0 +1,392 @@
+
+.cards-main{
+    width: 100%;
+      padding-top: 70px;
+    
+}
+
+.cards{
+   
+    display: flex;
+    flex-direction: row;
+}
+.cards-img{
+  
+    width:50%;
+   
+}
+
+.cards-img img{
+    width: 100%;
+    height: 750px;
+}
+.cards-text{
+   padding: 20px;
+    width: 50%; 
+    background-color:  #E7E7E7;
+}
+.cards-text h1{
+   
+  /* padding-left: 35px; */
+    font-family: Fraunces;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 144px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+color:rgba(26, 26, 26, 0.7) ;
+
+
+}
+.cards-text span{
+    
+
+    color: #D3AF5E
+}
+
+.cards-text p{
+    /* padding-left: 35px; */
+    /* padding-right: 15px; */
+  
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.019em;
+    text-align: left;
+    
+color: #1E1E1E;
+
+
+}
+.card-button{
+    padding-top: 30px;
+    /* padding-left: 40px; */
+   
+ text-align: left;
+}
+.card-buttonss{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.019em;
+text-align: left;
+color: white;
+background-color:  #0071E3;
+;
+width: Hug (123px);
+height: Hug (46px);
+top: 3343px;
+left: 1037px;
+padding: 5px 40px 5px 40px;
+border-radius: 60px;
+gap: 10px;
+border: none;
+
+  
+  
+    
+  }
+
+  /* @media screen and (max-width:1340px) {
+    .card-img{
+        width: 550px;
+        height: 686px;
+    }
+    .card-h1{
+   
+  
+        font-size: 76px;
+        font-weight: 700;
+        line-height: 144px;
+        letter-spacing: 0em;
+        padding-left: 15px;
+        text-align: left;
+        
+        color:rgba(26, 26, 26, 0.7) ;
+        
+        
+        }
+        .card-h2{
+            padding-left: 15px;
+            font-size: 76px;
+            font-weight: 700;
+            line-height: 144px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #D3AF5E
+        }
+        
+        .card-p{
+            padding-left: 15px;
+            padding-right: 100px;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: -0.019em;
+        text-align: left;
+        color: #1E1E1E;
+        
+        
+        }
+        .card-button{
+            padding-top: 30px;
+          margin-left: -400px;
+        }
+  }*/
+
+  @media screen and (max-width:1024px) {
+    .cards-img{
+     width: 40%;
+        
+    }
+
+    .cards-img img{
+        width: 100%;
+        height: 700px;
+    }
+
+    .cards-text{
+        width: 60%;
+    }
+    .cards-text h1{
+   
+  
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 100px;
+        letter-spacing: 0em;
+        padding-left: 15px;
+        text-align: left;
+        
+        color:rgba(26, 26, 26, 0.7) ;
+        
+        
+        }
+        .cards-text span{
+            padding-left: 15px;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 80px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #D3AF5E
+        }
+        
+        .cards-text p{
+         
+        font-size: 25px;
+        font-weight: 400;
+       
+    
+        text-align: left;
+        color: #1E1E1E;
+        
+        
+        }
+       
+  } 
+
+  @media screen and (max-width:768px) {
+   .cards-img{
+    width: 50%;
+   }
+
+    .cards-img img{
+        width: 100%;
+       height: 500px;
+    }
+
+    .cards-text{
+        width: 50%;
+    }
+
+    .cards-text h1{
+        font-family: Fraunces;
+font-size: 40px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+
+    .cards-text p{
+        font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.019em;
+text-align: left;
+
+    }
+
+    .card-buttonss{
+        font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.019em;
+text-align: left;
+width: Fixed (76px);
+height: Fixed (30px);
+top: 2698px;
+left: 437px;
+padding: 5px 40px 5px 40px;
+border-radius: 60px;
+gap: 10px
+
+
+    }
+
+   
+       
+        
+        
+       
+  }
+@media screen and (max-width:540px){
+    .cards{
+   
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards-img{
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .cards-img img{
+        height: 300px;
+    }
+
+    .cards-text{
+        width: 100%;
+    }
+
+    .cards-text h1{
+        padding-top: 30px;
+        font-family: Fraunces;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+
+    }
+
+    .cards-text span{
+        font-family: Fraunces;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+
+    }
+
+    .cards-text p{
+        font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: -0.019em;
+text-align: center;
+
+    }
+
+    .card-button{
+        font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.019em;
+
+width: Fixed (56px);
+height: Fixed (22px);
+top: 1825px;
+
+padding: 5px 40px 5px 40px;
+border-radius: 60px;
+gap: 10px
+
+
+    }
+.card-button{
+    text-align: center;
+
+    padding-bottom: 30px;
+}
+    .card-buttonss{
+        font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.019em;
+text-align: center;
+width: Fixed (56px);
+height: Fixed (22px);
+top: 1825px;
+left: 152px;
+padding: 5px 40px 5px 40px;
+border-radius: 60px;
+gap: 10px
+
+
+    }
+    
+}
+  /* @media screen and (max-width:540px) {
+   
+    .card-main{
+        background-color:  #E7E7E7;
+       ;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+   }
+    .card-img{
+        width: 520px;
+       
+    }
+    .card-h1{
+   
+  
+        
+        text-align: center;
+        
+        color:rgba(26, 26, 26, 0.7) ;
+        
+        
+        }
+        .card-h2{
+           
+            text-align: center;
+            color: #D3AF5E
+        }
+        
+        .card-p{
+            
+         width: 100%;
+     font-size: 20px;
+       
+        line-height: 24px;
+        text-align:center;
+        color: #1E1E1E;
+        
+        
+        }
+        .card-button{
+            padding: 50px;
+            padding-top: 30px;
+            text-align: center;
+         
+        }
+  }  */
+ 
+
+ 

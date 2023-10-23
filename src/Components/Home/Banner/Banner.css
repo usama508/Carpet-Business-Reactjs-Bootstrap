@@ -1,0 +1,35 @@
+.banners {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+    
+}
+
+.banners img{
+    width: 100px;
+}
+
+@media screen and (max-width:1024px){
+    .banners img {
+        width: 70px;
+        
+    }
+    
+}
+@media screen and (max-width:768px){
+    .banners img {
+        width: 40px;
+        
+    }
+    
+}
+
+@media screen and (max-width:280px){
+    .banners img {
+        width: 30px;
+        
+    }
+    
+}
+

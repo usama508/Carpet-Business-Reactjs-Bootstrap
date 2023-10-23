@@ -1,0 +1,648 @@
+.description-head h1{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1A1A1A;
+    ;
+}
+
+.description-head p{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+
+text-align: left;
+color:  #1A1A1ACC;
+
+}
+
+.order-main{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.orders{
+    padding: 12px;
+    text-align: left;
+}
+.orders h1{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.019em;
+    color:  #000000;
+    
+   
+    
+}
+
+.orders p{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: -0.019em;
+color: #1A1A1A66;
+
+}
+
+.media-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+.media-img{
+    width: 40%;
+    
+}
+.media-img img{
+  width: 100%;
+     height: 203px;
+}
+.media-icon{
+    text-align: right;
+    margin-right:10px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.media-text{
+    width: 60%;
+    background: #ECECEC;
+border-radius: 0px 20px 20px 0px;
+padding-left: 20px;
+padding-right: 10px;
+}
+
+.media-text h1{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+width: 100%;
+
+color:  #1A1A1A;
+;
+
+}
+
+
+.media-text p{
+   
+    
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+color: #1A1A1A;
+;
+}
+
+.trade-text{
+    padding-top: 40px;
+}
+
+.trade-text h1{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+color: rgba(26, 26, 26, 0.7);
+
+}
+.trade-text span{
+    color: rgba(26, 26, 26, 0.4);
+}
+
+.upload-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.upload-button{
+    background-color: #F5F4F4;
+    width: 49%;
+    border: 2px solid #C4C4C4;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+border-radius: 10px;
+padding: 10px;
+color:  #1A1A1ACC;
+;
+}
+.upload-button p{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #1A1A1ACC;
+
+}
+.numberss{
+    padding-top: 40px;
+}
+
+.numberss h1{
+    font-family: Inter;
+font-size: 48px;
+font-weight: 600;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(26, 26, 26, 0.2);
+
+}
+
+.numberss h1 span{
+    color:  #005C32
+
+
+}
+
+.cart-main{
+    border: 1px solid #1A1A1A4D;
+    border-radius: 20px;
+}
+.carts{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  
+}
+
+.cart-image svg{
+    width:"66" ;height:"60" 
+}
+
+.carts h1{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 30px;
+color:  #1A1A1A;
+
+
+}
+.carts h1 a{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+
+
+color:  #1A1A1A;
+
+
+}
+
+.carts h2{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:  #1A1A1ACC;
+margin-left: 30px;
+}
+
+
+
+  .carts{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+
+
+
+/* .carts::after{
+    content: '';
+    position: absolute;
+     background-color: #1A1A1A1A;
+     width: 595px;
+     height: 2px;
+     bottom: 0;
+     left: 12;
+} */
+
+.carts  span{
+    color: #005C32
+
+    
+}
+.cart-button{
+    
+    padding-top: 20px;
+}
+.cart-button button{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+padding: 10px;
+color:  #1A1A1A;
+background: #D3AF5E;
+border:none;
+border-radius: 10px;
+
+width: 100%;
+}
+
+.button-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  padding-top: 15px;
+}
+.button-banner svg{
+   margin-left: 10px; 
+}
+
+.button-banner p{
+    margin-left: 10px; 
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color:  #1A1A1ACC;
+
+ }
+
+ .button-banner span{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #1A1A1ACC;
+margin-left: 10px; 
+
+ }
+
+ .button-banners{
+    display: none;
+ }
+
+ @media screen and (max-width:1024px) {
+   
+    
+    .media-text h1{
+      
+    font-size: 12px;
+   
+    
+    
+    }
+    
+    
+    .media-text p{
+       
+        
+    
+    font-size: 12px;
+   
+    
+    
+    }
+    
+    
+ }
+
+ @media screen and (max-width:768px) {
+    .description-head h1{
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:  #1A1A1ACC;
+    }
+    
+    .description-head p{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    color:  #1A1A1ACC;
+    
+    }
+    .orders h1{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: -0.019em;
+        text-align: left;
+        
+        color:  #000000;
+        
+       
+        
+    }
+    
+    .orders p{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.019em;
+        text-align: left;
+        color: #1A1A1A66;
+        ;
+    
+    
+    }
+   
+    
+    .media-text h1{
+      
+    font-size: 12px;
+   
+    
+    
+    }
+    
+    
+    .media-text p{
+       
+        
+    
+    font-size: 12px;
+   
+    
+    
+    }
+
+    .button-banners{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      padding-top: 15px;
+    }
+    .button-banners svg{
+       margin-left: 10px; 
+    }
+    
+    .button-banners p{
+        margin-left: 10px; 
+        font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  #1A1A1ACC;
+    
+     }
+    
+     .button-banners span{
+        font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1A1A1ACC;
+    margin-left: 10px; 
+    
+     }
+    
+     .button-banner{
+        display:none;
+     }
+    
+    
+ }
+
+ @media screen and (max-width:540px) {
+    .description-head h1{
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+        color: #1A1A1A;
+        ;
+    }
+    
+    .description-head p{
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    color:  #1A1A1ACC;
+    
+    }
+    .trade-text h1{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    
+    color: rgba(26, 26, 26, 0.7);
+    
+    }
+    .upload-main{
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+    .upload-button{
+        margin-bottom: 10px;
+        background-color: #F5F4F4;
+        width: 100%;
+        border: 2px solid #C4C4C4;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+    color:  #1A1A1ACC;
+    ;
+    }
+    .upload-button p{
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+     
+        
+    text-align: center;
+    color: #1A1A1ACC;
+    
+    }
+    .cart-image svg{
+        width:"66" ;
+        height:"60" 
+    }
+    .carts h1{
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+       
+    
+    
+    }
+    .carts h1 a{
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    
+    
+    color:  #1A1A1A;
+    
+    
+    }
+    
+    .carts h2{
+        font-family: Inter;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1A1A1ACC;
+        
+    }
+    .media-text{
+        width: 60%;
+        background: #ECECEC;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 20px;
+    padding-right: 10px;
+    }
+    
+    .media-text h1{
+         
+        
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    width: 100%;
+    
+    
+    
+    }
+    
+    
+    .media-text p{
+     
+        
+     
+        
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    
+    
+    }
+    .media-img img{
+        width: 100%;
+           height: 143px;
+      }
+      .numberss h1{
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+       
+        
+    text-align: center;
+    color: rgba(26, 26, 26, 0.2);
+    
+    }
+    .cart-button button{
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+    padding: 10px;
+    color:  #1A1A1A;
+    background: #D3AF5E;
+    border:none;
+    border-radius: 10px;
+    
+    width: 100%;
+    }
+    .button-banners p{
+        margin-left: 10px; 
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+   margin: auto;
+        
+    text-align: center;
+    color:  #1A1A1ACC;
+    
+     }
+ }

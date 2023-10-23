@@ -1,0 +1,163 @@
+.header-main{
+  padding-top: 50px;
+}
+
+  .header-h1{
+    font-family: Fraunces;
+    font-size: 110px;
+    font-weight: 700;
+    line-height: 250px;
+    letter-spacing: 0em;
+   
+    text-align: center;
+    
+    
+color: #5C5B5B;
+border-top: 2px solid  #1A1A1A40;
+;
+/* font-weight:500;
+font-size:143px;
+color: #005C32;
+text-align:center; */
+border-bottom: 2px solid #1A1A1A40;
+;
+
+  }
+  .header-span1{
+   
+
+
+color: #D3AF5E;
+
+
+  }
+
+  .header-span2{
+    color: #128551;
+  }
+  
+  /* .header-h1{
+    display: none;
+  }
+  .header-span{
+    display: none;
+  } */
+
+  .header-p-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: -0.019em;
+
+border-bottom: 2px solid  #1A1A1AB2;
+;
+  }
+  
+  @media screen and (max-width:1024px) {
+  
+    .header-h1{
+      line-height: 94px;
+      padding: 20px;
+      
+    }
+    .header-span{
+      
+      line-height: 94px;
+      
+      
+    }
+   
+
+    /* .header-h1{
+      display: none;
+    }
+    .header-span{
+      display: none;
+    } */
+    .header-p{
+      font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.019em;
+text-align: left;
+
+
+    }
+    .headers-p{
+      font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.019em;
+text-align: right;
+
+    }
+  }
+@media screen and (max-width:768px) {
+ 
+  .header-h1{
+    
+
+    font-family: Fraunces;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+   
+    
+
+
+  }
+  .header-span{
+  
+    font-family: Fraunces;
+    font-size: 128px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    
+
+  }
+  .header-p-main{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.019em;
+    text-align: left;
+    
+    
+  }
+  
+}
+
+@media screen and (max-width:540px) {
+
+  .header-h1{
+    font-family: Fraunces;
+font-size: 50px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+
+
+  }
+
+  
+  .header-p-main{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: -0.019em;
+    text-align: left;
+    
+  }
+}
+
+  
